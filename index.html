@@ -1,0 +1,64 @@
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Test</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,300" rel="stylesheet" type="text/css">
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+        main {
+            font-family: "Open Sans", sans-serif;
+            height: 90%;
+            width: 60%;
+            margin: 0 20%;
+            padding: 10px;
+        }
+        a {
+            text-decoration: none;
+            font-weight: bold;
+            font-family: "Open Sans", sans-serif;
+            border: 0;
+            border-radius: 5px;
+            cursor: pointer;
+            padding-top: 3px;
+            padding-right: 14px;
+            padding-left: 14px;
+            height: 30px;
+            /* width: 125px; */
+            -moz-user-select: -moz-none;
+            -o-user-select: none;
+            -khtml-user-select: none;
+            -webkit-user-select: none;
+            user-select: none;
+            margin-right: 10px;
+        }
+        .button1 {
+            background-color: #4b4bff;
+            color: white;
+        }
+        .button2 {
+            background-color: #fff;
+            color: #4b4bff;
+            border: 1px #4b4bff solid;
+        }
+        .button3 {
+            background-color: #fff;
+            color: #000;
+            border: 1px #000 solid;
+        }
+        .num-list {
+            font-size: 1.5rem;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <div class="num-list" style="margin-bottom: 20px;">Всего ... позиций</div>
+        <div style="visibility: hidden; margin-bottom: 10px;" class="win-pos">Выиграла ... позиция</div>
+        <a style="float: left;" class="button1" id="start">Начать</a>
+    </main>
+    <script src="./script.js"></script>
+</body>
+</html>
